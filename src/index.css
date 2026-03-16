@@ -28,18 +28,18 @@
     --radius: 0px;
 
     --surface: 0 0% 4%;
-    --surface-elevated: 240 6% 7%;
-    --text-muted: 240 5% 65%;
-    --border-strong: 347 77% 50% / 0.4;
+    --surface-elevated: 0 0% 6%;
+    --text-muted: 0 0% 60%;
+    --border-strong: 0 100% 50% / 0.4;
 
     --sidebar-background: 0 0% 4%;
-    --sidebar-foreground: 240 5% 96%;
-    --sidebar-primary: 347 77% 50%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 0 100% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 4% 16%;
-    --sidebar-accent-foreground: 240 5% 96%;
-    --sidebar-border: 347 77% 50% / 0.15;
-    --sidebar-ring: 347 77% 50%;
+    --sidebar-accent: 0 0% 14%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 100% 50% / 0.15;
+    --sidebar-ring: 0 100% 50%;
   }
 }
 
