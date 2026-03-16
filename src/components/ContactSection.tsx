@@ -42,12 +42,6 @@ const ContactSection = () => {
               linkedin.com/in/preetddesai ↗
             </p>
           </a>
-          <a href="tel:+918200838894" className="card-technical border-l-2 border-l-primary group">
-            <p className="text-subhead mb-2">Phone</p>
-            <p className="text-foreground font-mono-tech text-sm group-hover:text-primary transition-colors">
-              +91 8200838894
-            </p>
-          </a>
           <div className="card-technical border-l-2 border-l-primary">
             <p className="text-subhead mb-2">Location</p>
             <p className="text-foreground font-mono-tech text-sm">Gandhinagar, Gujarat, India</p>

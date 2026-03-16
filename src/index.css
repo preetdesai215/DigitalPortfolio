@@ -12,34 +12,34 @@
     --card-foreground: 240 5% 96%;
     --popover: 0 0% 4%;
     --popover-foreground: 240 5% 96%;
-    --primary: 347 77% 50%;
+    --primary: 0 100% 50%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 240 6% 10%;
-    --secondary-foreground: 240 5% 96%;
-    --muted: 240 4% 16%;
-    --muted-foreground: 240 5% 65%;
-    --accent: 347 77% 50%;
+    --secondary: 0 0% 8%;
+    --secondary-foreground: 0 0% 90%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 0 100% 50%;
     --accent-foreground: 0 0% 100%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 347 77% 50% / 0.15;
-    --input: 240 4% 16%;
-    --ring: 347 77% 50%;
+    --border: 0 100% 50% / 0.15;
+    --input: 0 0% 14%;
+    --ring: 0 100% 50%;
     --radius: 0px;
 
     --surface: 0 0% 4%;
-    --surface-elevated: 240 6% 7%;
-    --text-muted: 240 5% 65%;
-    --border-strong: 347 77% 50% / 0.4;
+    --surface-elevated: 0 0% 6%;
+    --text-muted: 0 0% 60%;
+    --border-strong: 0 100% 50% / 0.4;
 
     --sidebar-background: 0 0% 4%;
-    --sidebar-foreground: 240 5% 96%;
-    --sidebar-primary: 347 77% 50%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 0 100% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 4% 16%;
-    --sidebar-accent-foreground: 240 5% 96%;
-    --sidebar-border: 347 77% 50% / 0.15;
-    --sidebar-ring: 347 77% 50%;
+    --sidebar-accent: 0 0% 14%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 100% 50% / 0.15;
+    --sidebar-ring: 0 100% 50%;
   }
 }
 
@@ -65,8 +65,8 @@
 
   .grid-bg {
     background-image:
-      linear-gradient(rgba(225, 29, 72, 0.05) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(225, 29, 72, 0.05) 1px, transparent 1px);
+      linear-gradient(rgba(255, 0, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 0, 0, 0.05) 1px, transparent 1px);
     background-size: 40px 40px;
   }
 
@@ -85,7 +85,7 @@
 
   .card-technical:hover {
     border-color: hsl(var(--primary));
-    box-shadow: 0 0 20px rgba(225, 29, 72, 0.1);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.1);
   }
 
   .text-display {

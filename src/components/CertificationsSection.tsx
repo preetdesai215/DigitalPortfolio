@@ -2,7 +2,9 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const certs = [
-  { title: "Computational Data Science", org: "PDEU" },
+  { title: "MATLAB - On Ramp", org: "MathWorks" },
+  { title: "MATLAB - Signal Processing On Ramp", org: "MathWorks" },
+  { title: "MATLAB - Core Skills", org: "MathWorks" },
   { title: "Practical Cyber Security for Cyber Security Practitioners", org: "NPTEL" },
 ];
 
@@ -28,7 +30,7 @@ const CertificationsSection = () => {
               className="card-technical border-l-2 border-l-primary"
               initial={{ opacity: 0, x: -20 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
-              transition={{ delay: 0.2 + i * 0.15, duration: 0.5 }}
+              transition={{ delay: 0.2 + i * 0.1, duration: 0.5 }}
             >
               <h3 className="text-foreground font-bold text-sm">{cert.title}</h3>
               <p className="font-mono-tech text-xs text-muted-foreground mt-1">{cert.org}</p>

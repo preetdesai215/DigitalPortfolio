@@ -3,12 +3,36 @@ import { useRef } from "react";
 
 const skillGroups = [
   {
-    title: "Programming",
-    skills: ["Embedded C", "Python", "SQL", "Linux Scripting", "Apache", "HTML/CSS"],
+    title: "Programming Languages",
+    skills: ["Embedded C", "Python", "SQL"],
   },
   {
-    title: "Technologies",
-    skills: ["Arduino", "Verilog", "MATLAB", "TINA-TI", "Logisim", "Proteus"],
+    title: "Embedded Systems",
+    skills: ["Arduino", "ESP32"],
+  },
+  {
+    title: "Hardware Description Language",
+    skills: ["Verilog"],
+  },
+  {
+    title: "Simulation & Design Tools",
+    skills: ["MATLAB", "Proteus", "Logisim", "TINA-TI"],
+  },
+  {
+    title: "Operating Systems",
+    skills: ["Kali Linux", "Parrot OS"],
+  },
+  {
+    title: "Scripting",
+    skills: ["Bash", "Linux Shell Scripting"],
+  },
+  {
+    title: "Web Technologies",
+    skills: ["HTML", "CSS", "Apache"],
+  },
+  {
+    title: "Productivity & Documentation",
+    skills: ["Notion"],
   },
 ];
 
@@ -27,16 +51,16 @@ const SkillsSection = () => {
         >
           Skills
         </motion.h2>
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
           {skillGroups.map((group, i) => (
             <motion.div
               key={group.title}
               className="card-technical border-l-2 border-l-primary"
               initial={{ opacity: 0, x: -30 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
-              transition={{ delay: 0.2 + i * 0.15, duration: 0.6 }}
+              transition={{ delay: 0.2 + i * 0.08, duration: 0.6 }}
             >
-              <h3 className="text-subhead mb-4">{group.title}</h3>
+              <h3 className="text-subhead mb-3 text-[11px]">{group.title}</h3>
               <div className="flex flex-wrap gap-2">
                 {group.skills.map((skill) => (
                   <span

@@ -23,7 +23,7 @@ const HeroSection = () => {
           animate={{ clipPath: "inset(0 0% 0 0)" }}
           transition={{ duration: 1, delay: 0.2, ease: [0.2, 1, 0.3, 1] }}
         >
-          PREET D.<br />DESAI
+          PREET<br />DESAI
         </motion.h1>
 
         <motion.p
@@ -32,7 +32,7 @@ const HeroSection = () => {
           animate={{ clipPath: "inset(0 0% 0 0)" }}
           transition={{ duration: 0.8, delay: 0.5, ease: [0.2, 1, 0.3, 1] }}
         >
-          ENGINEERING INTELLIGENT SYSTEMS AT THE INTERSECTION OF ELECTRONICS AND DATA.
+          ELECTRONICS AND COMMUNICATION ENGINEERING STUDENT | DIGITAL COMMUNICATIONS | AI/ML | DIGITAL FORENSICS
         </motion.p>
 
         <motion.div
