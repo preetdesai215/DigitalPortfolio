@@ -3,30 +3,39 @@ import { useRef } from "react";
 
 const projects = [
   {
-    title: "Smart Underground Water Pipeline Leakage Detection System",
-    tools: ["ESP32", "Arduino IDE", "Pressure Sensor", "Water Flow Sensor", "ADC", "Proteus"],
+    title: "Wine Quality Detection using Machine Learning",
+    tools: ["Python", "Scikit-learn", "Pandas"],
     points: [
-      "Designed FSM-based control logic on ESP32 for real-time pipeline leakage detection.",
-      "Implemented ADC-based pressure and flow monitoring with threshold fault detection.",
-      "Validated the system using serial logging and controlled leakage test scenarios.",
+      "Developed a machine learning model in Python to predict wine quality using physicochemical features.",
+      "Performed data preprocessing, feature selection, and model training using classification algorithms.",
+      "Achieved accurate quality prediction through iterative model evaluation.",
     ],
   },
   {
-    title: "Parallel–Serial Sensor Data Interfacing using 8086",
-    tools: ["8086 Assembly", "8255 PPI", "8251 USART", "ADC0808", "Proteus"],
+    title: "Audio Processing GUI using MATLAB",
+    tools: ["MATLAB", "Signal Processing Toolbox", "GUI"],
     points: [
-      "Designed an 8086-based sensor data acquisition system using ADC0808 via 8255 PPI.",
-      "Implemented serial communication using 8251 USART.",
-      "Developed assembly programs for ADC control and data handling.",
+      "Designed a graphical user interface in MATLAB for audio signal processing tasks.",
+      "Implemented filtering, noise reduction, and visualization of waveforms.",
+      "Analyzed frequency spectra for audio signals.",
     ],
   },
   {
-    title: "Wind Speed Calculator",
-    tools: ["Arduino Uno", "C Programming", "HC-SR04 Sensor", "Proteus"],
+    title: "FM Transmitter and Receiver Simulation",
+    tools: ["TINA-TI", "Electronic Simulation"],
     points: [
-      "Built a real-time wind speed measurement system using ultrasonic sensors.",
-      "Implemented data acquisition and signal processing in embedded C.",
-      "Demonstrated hardware–software integration and calibration.",
+      "Simulated an FM communication system including modulation and demodulation stages.",
+      "Analyzed signal behavior, frequency response, and circuit performance.",
+      "Validated FM principles using electronic simulation tools.",
+    ],
+  },
+  {
+    title: "Network Packet Sniffer",
+    tools: ["Python", "Scapy", "Cybersecurity"],
+    points: [
+      "Developed a packet sniffing tool using Python to capture and analyze network packets.",
+      "Implemented packet inspection to monitor protocols and detect suspicious traffic.",
+      "Analyzed network communication behavior for security insights.",
     ],
   },
 ];
@@ -46,7 +55,7 @@ const ProjectsSection = () => {
         >
           Projects
         </motion.h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 gap-6">
           {projects.map((project, i) => (
             <motion.div
               key={i}

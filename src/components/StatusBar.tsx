@@ -6,7 +6,7 @@ const StatusBar = () => {
           LOC: GANDHINAGAR, IN // STATUS: ACTIVE_RESEARCH // SYSTEM_READY
         </span>
         <span className="font-mono-tech text-[10px] md:text-xs text-muted-foreground hidden md:block">
-          &copy; 2025 PREET D. DESAI
+          &copy; 2025 PREET DESAI
         </span>
       </div>
     </div>
