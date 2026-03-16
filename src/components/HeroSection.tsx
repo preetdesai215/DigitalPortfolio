@@ -18,12 +18,12 @@ const HeroSection = () => {
         </motion.div>
 
         <motion.h1
-          className="text-display mb-6"
+          className="text-display mb-6 whitespace-nowrap"
           initial={{ clipPath: "inset(0 100% 0 0)" }}
           animate={{ clipPath: "inset(0 0% 0 0)" }}
           transition={{ duration: 1, delay: 0.2, ease: [0.2, 1, 0.3, 1] }}
         >
-          PREET<br />DESAI
+          PREET DESAI
         </motion.h1>
 
         <motion.p
