@@ -47,14 +47,6 @@ const HeroSection = () => {
           <a href="#contact" className="btn-secondary-tech">
             Contact
           </a>
-          <a
-            href="https://www.linkedin.com/in/preetddesai"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-secondary-tech"
-          >
-            LinkedIn ↗
-          </a>
         </motion.div>
 
         <motion.div
